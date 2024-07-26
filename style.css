@@ -1,0 +1,164 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+  }
+/*  Primeira secção topo*/
+  
+.banner-topo{
+    padding: 120px 80px;
+    background-image: url(img/banner-topo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container-logo{
+    font-size: 14px;
+    margin: 0;
+}
+.container-logo img{
+    width: 95px;
+    height: 45px;
+}
+.nome-pet-shop{
+    font-size: 50px;
+    color: #75591A;
+}
+.pet-descricao{
+   margin-left: 50px;
+   font-size: 14px;
+   color: #015958;
+   
+}
+
+.cor-titulo{
+    color:#015958 ;
+}
+.banner-topo .container-titulo{
+    text-align: center;
+    padding: 50px;   
+}
+.container-titulo{
+    padding: 40px;
+    margin: 70px auto 0;
+    box-shadow: 0 8px 32px #015958;
+    background: #ffffffc4;
+    border-radius: 8px;
+    
+}
+.container-titulo h1{
+    font-size: 80px;
+    padding-bottom: 15px;
+    color: #015958;
+}
+.container-titulo a{
+    background-color: #015958;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 10px; 
+    color: #75591A;  
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*  Segunda secção Serviços*/
+.servicos{
+    padding-top: 90px;
+    max-width: 900px;
+    color: #015958;
+    margin: 0 auto 50px;
+    
+}
+.servicos h2{
+    text-align: center;
+    font-size:50px ;
+    padding-bottom: 50px;
+    color: #75591A;
+}
+.servicos li{
+    margin: 0 0 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+span{
+    color: #75591A;
+    font-weight: bold;
+}
+.servicos img{
+    text-align: center;
+    border-radius: 8px;
+    box-shadow:10px 8px 12px 5px #015958;
+    
+}
+/*  Terceira secção Redes Sociais*/
+.redes-sociais{
+    text-align: center;
+    padding: 50px;
+    background-color: #015958;
+}
+.redes-sociais p{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    font-style: italic;
+}
+.redes-sociais img{
+   width: 90px;
+   height: 80px;  
+}
+/*  quarta secção parceiros*/
+.marcas{
+   text-align: center;
+   margin-top: 50px;
+   padding-bottom: 50px;
+
+}
+.marcas h2{
+    font-size: 50px;
+    color: #015958;
+}
+.container-marcas{
+    max-width: 900px;
+    margin: 0 auto;
+     
+}
+/*  Quinta secção Localização*/
+.localizacao{
+text-align: center;
+padding: 50px;
+}
+.localizacao h2{
+    font-size: 50px;
+    color: #75591A;
+}
+.localizacao p{
+    color: #015958;
+    font-size: 18px;
+}
+.localizacao iframe{
+    width: 950px;
+    height: 700px;
+}
+
+/*  sexta secção rodape*/
+.rodape{
+    box-shadow: 0 4px 12px #015958;
+    background: #ffffffc4; 
+}
+
+.rodape .nome-projeto{
+    text-align: center;
+   padding: 10px;
+   color: #75591A;
+   font-style: italic;
+}
+.nome-pet-shop2{
+color: #75591A;
+}
+.rodape img{
+    width: 40px;
+    height: 30px;
+   margin: 15px;
+}
